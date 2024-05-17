@@ -1,9 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
-public class QuestionTree {
-    
+public class QuestionTree<T> {
+    private Node<T> root;
+    //Will initialize the question tree with only one question and the only solution being computer
     public QuestionTree(){ 
-        
+        root =
     } 
 
     public void read(Scanner input){ 
