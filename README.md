@@ -7,5 +7,5 @@ Final project for Advanced Programming
 |  0  | [Table Of Contents]  |
 |  1  |  Setting Up the Lab and my wiki  |
 |  2  |  Studied for my AP exam |
-|  3  |  Learned about recursive backtracking [https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Recursive-Backtracking] | 
+|  3  |  [Learned about recursive backtracking](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Recursive-Backtracking) | 
 |  4  |  I did more with recursive backtracking and started the QuestionNode class |
