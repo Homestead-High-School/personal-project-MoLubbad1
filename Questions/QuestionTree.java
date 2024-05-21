@@ -1,14 +1,19 @@
 import java.io.PrintStream;
 import java.util.*;
-public class QuestionTree<T> {
-    private Node<T> root;
+public class QuestionTree{ 
+    QuestionNode root;
     //Will initialize the question tree with only one question and the only solution being computer
     public QuestionTree(){ 
-        root =
+        root = new QuestionNode();
     } 
-
+    //Will read a text file and make a new tree for the game
     public void read(Scanner input){ 
-
+        while(input.hasNextLine()){ 
+            String next = input.nextLine().trim(); 
+            if(next.equals("Q:")){ 
+                QuestionNodenext.nextLine().trim();
+            }
+        }
     } 
 
     public void write(PrintStream output){ 

@@ -7,7 +7,7 @@ public class QuestionNode {
 
     // constructs a node with only the question: is it a computer?
     public QuestionNode() {
-        this("Is your object a computer? ", QuestionNode("computer", null, null), QuestionNode(null, null, null));
+        this("Is your object a computer? ", new QuestionNode("computer", null, null), new QuestionNode(null, null, null));
     }
 
     // constructs a node if everything is given
@@ -15,5 +15,5 @@ public class QuestionNode {
         this.qOrO = qOrO;
         this.yes = yes;
         this.no = no;
-    }
+    } 
 }
