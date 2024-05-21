@@ -10,3 +10,4 @@ Final project for Advanced Programming
 |  3  |  [Learned about recursive backtracking](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Recursive-Backtracking) | 
 |  4  |  [I did more with recursive backtracking and started the QuestionNode class](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Recursive-Backtracking) |
 |  5  | [I finished the QuestionNode class, then started working on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Question-Node-and-Read)
+|  6  | [Working on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Question-Node-and-Read)
