@@ -9,9 +9,15 @@ public class QuestionTree{
     //Will read a text file and make a new tree for the game
     public void read(Scanner input){ 
         while(input.hasNextLine()){ 
-            String next = input.nextLine().trim(); 
-            if(next.equals("Q:")){ 
-                QuestionNodenext.nextLine().trim();
+            String now = input.nextLine(); 
+            if(input.hasNextLine()){
+                String next = input.nextLine().trim(); 
+                if(now.equals("Q:")){ 
+                    QuestionNode x = new QuestionNode(next, read());
+                } 
+                else if(now.equals("A:")){ 
+                    QuestionNode y = new QuestionNode(next, null, null, now);
+                } 
             }
         }
     } 
