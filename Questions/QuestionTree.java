@@ -12,15 +12,19 @@ public class QuestionTree{
             String now = input.nextLine(); 
             if(input.hasNextLine()){
                 String next = input.nextLine().trim(); 
-                if(now.equals("Q:")){ 
-                    QuestionNode x = new QuestionNode(next, read());
-                } 
-                else if(now.equals("A:")){ 
-                    QuestionNode y = new QuestionNode(next, null, null, now);
-                } 
+                root = new QuestionNode(now, readHelper(now, next), readHelper(now, next), null);
             }
         }
     } 
+    //Method to help build the trees in the read method
+    public QuestionNode readHelper(String now, String next){ 
+        if(now.equals("Q:")){ 
+            QuestionNode x = new QuestionNode(next, readHelper(now, next), readHelper(now.nextLine().nextLine(), next.nextLine().nextLine()), now);
+        } 
+        else if(now.equals("A:")){ 
+            QuestionNode y = new QuestionNode(next, null, null, now);
+        }
+    }
 
     public void write(PrintStream output){ 
 
