@@ -12,4 +12,5 @@ Final project for Advanced Programming
 |  5  | [I finished the QuestionNode class, then started working on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Question-Node-and-Read)
 |  6  | [Working on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Question-Node-and-Read) 
 |  7  | [Worked on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Working-More-on-Read) 
-|  8  | Took sets and maps test |
+|  8  | Took sets and maps test | 
+|  9  | [Worked on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Working-More-on-Read) 
