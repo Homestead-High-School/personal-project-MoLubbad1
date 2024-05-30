@@ -14,3 +14,4 @@ Final project for Advanced Programming
 |  7  | [Worked on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Working-More-on-Read) 
 |  8  | Took sets and maps test | 
 |  9  | [Worked on the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Working-More-on-Read) 
+|  10  | [Finished the read method](https://github.com/Homestead-High-School/personal-project-MoLubbad1/wiki/Working-More-on-Read) 
