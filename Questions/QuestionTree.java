@@ -11,6 +11,7 @@ public class QuestionTree{
         while(input.hasNextLine()){ 
             String now = input.nextLine(); 
             if(input.hasNextLine()){
+                now = input.nextLine(); 
                 root = new QuestionNode(now,null,null,null); //Will create the root node
                 root.yes = readHelper(now, input, root); //Will build up the left/yes node
                 root.no = readHelper(now, input, root); //Will build up the right/no node
@@ -19,18 +20,26 @@ public class QuestionTree{
     } 
     //Method to help build the trees in the read method
     public QuestionNode readHelper(String now, Scanner input, QuestionNode parent){  
-        QuestionNode leaf; 
+        QuestionNode leaf = null; 
         String next = input.nextLine().trim(); 
-        leaf = new QuestionNode(next,null,null, parent); //Builds the node as if it is an answer
-        if(now.equals("Q:")){ //If it is a question build the yes and no nodes
-            leaf.yes=readHelper(now, input, leaf);
-            leaf.no=readHelper(now, input, leaf);
+        if(next.equals("Q:")){ //If it is a question build the yes and no nodes
+            next = input.nextLine().trim(); 
+            leaf = new QuestionNode(next,null,null, parent); //Builds the node as if it is an answer
+            leaf.yes=readHelper(input.nextLine().trim(), input, leaf); 
+            leaf.no=readHelper(input.nextLine().trim(), input, leaf); 
         }   
+        else if(now.equals("A:")){  
+            leaf = new QuestionNode(next,null,null, parent);
+        } 
+        else if(next.equals("A:")){  
+            next = input.nextLine().trim(); 
+            leaf = new QuestionNode(next,null,null, parent);
+        } 
         return leaf; 
     }
 
     public void write(PrintStream output){ 
-
+        
     } 
 
     public void askQuestions(){ 
